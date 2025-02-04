@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PreLoader />
+  <div class="d-flex gap-6">
+
+    <AppSidebar />
+    <div class="main-content w-100">
+      <TopHeader />
+      <BottomHeader />
+
+      <router-view></router-view>
+
+      <AppFooter />
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PreLoader from './components/PreLoader.vue';
+import AppSidebar from './components/AppSidebar.vue';
+import AppFooter from './components/AppFooter.vue';
+import BottomHeader from './components/BottomHeader.vue';
+import TopHeader from './components/TopHeader.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    PreLoader,
+    AppSidebar,
+    AppFooter,
+    BottomHeader,
+    TopHeader
+  },
+  
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

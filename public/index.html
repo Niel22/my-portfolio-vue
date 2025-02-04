@@ -4,8 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- #favicon -->
+    <link rel="shortcut icon" href="<%= BASE_URL %>assets/images/logo.png" type="image/x-icon" />
+    <!-- ==== css dependencies start ==== -->
+    <link rel="stylesheet" href="<%= BASE_URL %>assets/css/style.css" />
+    <!-- AOS  -->
+    <link rel="stylesheet" href="<%= BASE_URL %>assets/unpkg.com/aos%403.0.0-beta.6/dist/aos.css" />
+    <!-- swiper  -->
+    <link rel="stylesheet" href="<%= BASE_URL %>assets/cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.css" />
+    <!-- ICON  -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body>
     <noscript>
@@ -13,5 +22,16 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <!-- script js  -->
+    <script src="<%= BASE_URL %>assets/js/plugins/plugins.js"></script>
+    <script src="<%= BASE_URL %>assets/js/main.js"></script>
+   
+    <!-- swiper js  -->
+    <script src="<%= BASE_URL %>assets/cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.js"></script>
+    <!-- email js  -->
+    <script type="text/javascript" src="<%= BASE_URL %>assets/cdn.jsdelivr.net/npm/%40emailjs/browser%404/dist/email.min.js"></script>
+    <!-- aos -->
+    <script src="<%= BASE_URL %>assets/unpkg.com/aos%403.0.0-beta.6/dist/aos.js"></script>
   </body>
 </html>
