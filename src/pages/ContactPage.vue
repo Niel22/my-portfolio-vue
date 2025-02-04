@@ -1,5 +1,4 @@
 <template>
-    <PreLoader />
     <section class="pt-120 pb-120 mt-10 mt-lg-0">
         <div class="pb-60 br-bottom-n3">
             <div data-aos="zoom-in" class="page-heading">
@@ -143,12 +142,7 @@
 </template>
 
 <script>
-import PreLoader from '@/components/PreLoader.vue';
-
 export default {
-    name: "ContactPage",
-    components: {
-        PreLoader
-    }
+    name: "ContactPage"
 }
 </script>

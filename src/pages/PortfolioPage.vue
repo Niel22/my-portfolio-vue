@@ -1,5 +1,4 @@
 <template>
-    <PreLoader />
     <section class="pt-120 pb-120 mt-10 mt-lg-0">
         <div class="pb-60 br-bottom-n3">
             <div data-aos="zoom-in" class="page-heading">
@@ -11,10 +10,10 @@
                     scalable systems. Here’s some of my standout projects that highlights my expertise in Laravel and
                     backend development.
                 </p>
-                <a href="contact.html"
+                <router-link :to="{name: 'contact'}"
                     class="w-max primary-btn fw-medium px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto">
                     <i class="ph ph-paper-plane-tilt"></i>Hire Me
-                </a>
+            </router-link>
             </div>
         </div>
         <div class="container mt-8 mt-md-15">
@@ -284,12 +283,7 @@
 </template>
 
 <script>
-import PreLoader from '@/components/PreLoader.vue';
-
 export default {
-    name: "PortfolioPage",
-    components: {
-        PreLoader
-    }
+    name: "PortfolioPage"
 }
 </script>
