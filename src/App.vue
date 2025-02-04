@@ -1,5 +1,4 @@
 <template>
-  <PreLoader />
   <div class="d-flex gap-6">
 
     <AppSidebar />
@@ -15,7 +14,6 @@
 </template>
 
 <script>
-import PreLoader from './components/PreLoader.vue';
 import AppSidebar from './components/AppSidebar.vue';
 import AppFooter from './components/AppFooter.vue';
 import BottomHeader from './components/BottomHeader.vue';
@@ -25,7 +23,6 @@ import TopHeader from './components/TopHeader.vue';
 export default {
   name: 'App',
   components: {
-    PreLoader,
     AppSidebar,
     AppFooter,
     BottomHeader,
