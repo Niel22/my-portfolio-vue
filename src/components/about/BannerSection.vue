@@ -8,26 +8,26 @@
                     <p class="fs-seven n5-color">
                         I'm a software engineer specializing in building scalable and efficient backend systems.
                         Explore my
-                        <a href="portfolio.html" class="p1-color">project portfolio</a>,
-                        and <a href="resume.html" class="p1-color">online resume</a>.
+                        <router-link :to="{name: 'portfolio'}" class="p1-color">project portfolio</router-link>,
+                        and <router-link :to="{name: 'resume'}" class="p1-color">online resume</router-link>.
                     </p>
                     <div class="d-flex flex-wrap align-itmes-center gap-3 gap-md-6 mt-4 mt-md-8">
-                        <a href="portfolio.html"
+                        <router-link :to="{name: 'portfolio'}"
                             class="primary-btn px-3 px-md-6 py-2 py-md-4 fw-medium rounded-pill d-flex align-items-center gap-2">
                             <i class="ph ph-arrow-right"></i>View Portfolio
-                        </a>
-                        <a href="resume.html"
+                        </router-link>
+                        <router-link :to="{name: 'resume'}"
                             class="primary-btn2 fw-medium px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2">
-                            <img src="assets/images/resume-icon.png" alt="icon" />View
+                            <img src="/assets/images/resume-icon.png" alt="icon" />View
                             Resume
-                        </a>
+                        </router-link>
                     </div>
                 </div>
 
                 <div class="position-relative profile-img">
                     <div class="user-bg"></div>
                     <div class="bg-white">
-                        <img src="assets/images/user.jpg" alt="user" class="user-img" />
+                        <img src="/assets/images/user.jpg" alt="user" class="user-img" />
                     </div>
                 </div>
             </div>

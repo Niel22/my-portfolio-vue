@@ -10,10 +10,10 @@
                     project done.
                 </p>
             </div>
-            <a data-aos="zoom-in-right" href="contact.html"
+            <router-link data-aos="zoom-in-right" :to="{name: 'contact'}"
                 class="primary-btn fw-medium px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2">
                 <i class="ph ph-arrow-right"></i> Let’s Get in Touch
-            </a>
+            </router-link>
         </div>
     </section>
 </template>

@@ -8,9 +8,9 @@
             <div class="side-menu-left">
                 <div>
                     <div class="d-flex flex-column gap-8 justify-content-center align-items-center mt-6">
-                        <a href="/" class="side-icon p1-color bgn2-color brn4">
+                        <router-link :to="{name: 'index'}" class="side-icon p1-color bgn2-color brn4">
                             <i class="ph ph-seal-check"></i>
-                        </a>
+                        </router-link>
                         <div class="d-flex flex-column align-items-center gap-1">
                             <span class="toggle_name fs-eleven n5-color">Light Mode</span>
                             <button class="side-icon bg1-color mood_toggle">
@@ -80,10 +80,10 @@
                             </ul>
                         </div>
                     </div>
-                    <a href="contact.html"
+                    <router-link :to="{name: 'contact'}"
                         class="primary-btn fw-medium px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto">
                         <i class="ph ph-paper-plane-tilt"></i>Hire Me
-                        <span class="primary-btnSpan"></span></a>
+                        <span class="primary-btnSpan"></span></router-link>
                 </div>
             </div>
         </div>
