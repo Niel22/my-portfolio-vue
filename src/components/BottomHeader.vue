@@ -10,14 +10,14 @@
                         </span>
                         <span class="d-none d-md-block">About Me</span></router-link>
                 </li>
-                <li class="bg1-color">
+                <li class="rounded-3">
                     <router-link :to="{name: 'resume'}" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
                         <span class="fs-five d-flex align-items-center justify-content-center"><i
                                 class="ph-fill ph-notebook fs-six"></i></span>
                         <span class="d-none d-md-block">Resume</span>
                     </router-link>
                 </li>
-                <li>
+                <li class="rounded-3">
                     <router-link :to="{name: 'portfolio'}" class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
                             <span class="fs-five d-flex align-items-center justify-content-center">
@@ -28,7 +28,7 @@
                         <span class="n5-color bg2-color fs-ten px-1 pt-1 rounded-2 me-3 d-none d-md-block">16</span>
                     </router-link>
                 </li>
-                <li>
+                <li class="rounded-3">
                     <router-link :to="{name: 'contact'}" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
                         <span class="fs-five d-flex align-items-center justify-content-center"><i
                                 class="ph-fill ph-envelope"></i></span>
