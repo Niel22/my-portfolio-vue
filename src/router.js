@@ -4,6 +4,7 @@ import ResumePage from './pages/ResumePage.vue';
 import PortfolioPage from './pages/PortfolioPage.vue';
 import ContactPage from './pages/ContactPage.vue';
 import ProjectDetails from './pages/ProjectDetails.vue';
+import PageNotFound from './pages/PageNotFound.vue';
 
 const routes = [
     {
@@ -42,6 +43,14 @@ const routes = [
         name: 'project.details',
         path: '/project/:slug',
         component: ProjectDetails
+    },
+    {
+        name: 'notfound',
+        component: PageNotFound,
+        path: '/:pathMatch(.*)*',
+        meta: {
+            title: 'Page Not Found'
+        }
     }
 ];
 

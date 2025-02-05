@@ -1,5 +1,5 @@
 <template>
-    <section class="pt-120 pb-120 mt-10 mt-lg-0">
+    <section v-if="project" class="pt-120 pb-120 mt-10 mt-lg-0">
         <div class="pb-60">
             <div data-aos="zoom-in" class="page-heading aos-init aos-animate">
                 <h3 class="page-title fs-onefw-semibold n5-color mb-2 mb-md-3 text-center">
@@ -75,24 +75,29 @@
             </div>
         </div>
 
+        
         <!-- next project section start -->
         <ProjectSection />
         <!-- next project section end -->
     </section>
+    <PageNotFound v-else />
 </template>
 
 <script>
 import { mapState } from 'vuex'
-import ProjectSection from '../components/about/ProjectSection.vue'
+import ProjectSection from '../components/about/ProjectSection.vue';
+import PageNotFound from '../pages/PageNotFound.vue';
 
 export default {
     name: "ProjectDetails",
     components: {
-        ProjectSection
+        ProjectSection,
+        PageNotFound
     },
     created(){
         this.$store.dispatch('portfolio/getProject', this.$route.params.slug)
-        document.title = `NIEL || ${this.project.name}`;
+        const name = this.project?.name ?? 'Page Not Found';
+        document.title = `NIEL || ${name}`;
     },
     computed: {
         ...mapState('portfolio', ['project'])
