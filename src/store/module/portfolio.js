@@ -75,7 +75,7 @@ const portfolio = {
                 ],
                 slug: 'website-for-finding-and-reviewing-local-mechanics-in-your-area',
                 tech: ['Laravel', 'Livewire', 'MySQL'],
-                intro: 'MEchanic finder in your area',
+                intro: 'Mechanic finder in your area',
                 client: 'Personal Project',
                 live_link: '#',
                 github_link: 'https://github.com/Niel22/mechanic-finder',
