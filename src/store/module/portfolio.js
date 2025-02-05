@@ -51,7 +51,6 @@ const portfolio = {
                 ],
                 slug: 'shoe-showcasing-website',
                 tech: ['Laravel', 'Livewire', 'MySQL', 'Paystack Payment Gateway'],
-                case_study: 'Shoe Making Company',
                 intro: 'This web application allows users to browse and manage a wide range of shoe products, offering features for both customers and admins. Built with Laravel, Livewire, and Bootstrap, it ensures a dynamic, responsive',
                 client: 'Personal Project',
                 live_link: '#',
@@ -59,6 +58,31 @@ const portfolio = {
                 features: [
                     'Customer Side: User authentication, browse categories, view and filter products, color selection, adjust quantity, add to cart/wishlist, checkout, order notifications, order history, manage user profile.',
                     'Admin Side: Category, product, brand, and color management, slider management, site settings, user management, order management, and dashboard statistics.'
+                ]
+            },
+            {
+                name: 'Website For Finding And Reviewing Local Mechanics In Your Area',
+                overview: 'This project focuses on the design and implementation of a website that enables users to find and review local mechanics. The platform allows users to register, search for mechanics based on specific criteria like location and service type, and share their feedback through reviews. The website aims to offer a centralized hub for individuals seeking trustworthy, reliable mechanics by leveraging community input.',
+                image: [
+                    {
+                        src: '/assets/images/portfolio/mechanics.png',
+                        alt: 'shoe Project Screenshot'
+                    },
+                    {
+                        src: '/assets/images/portfolio/mechanic.png',
+                        alt: 'shoe Project Screenshot'
+                    }
+                ],
+                slug: 'website-for-finding-and-reviewing-local-mechanics-in-your-area',
+                tech: ['Laravel', 'Livewire', 'MySQL'],
+                intro: 'MEchanic finder in your area',
+                client: 'Personal Project',
+                live_link: '#',
+                github_link: 'https://github.com/Niel22/mechanic-finder',
+                features: [
+                    'Users can register and log in to access platform features.',
+                    'A search function allows filtering mechanics by location, service, and rating',
+                    'Users can submit reviews and ratings based on their experiences with mechanics, helping others make informed decisions.'
                 ]
             },
         ]
