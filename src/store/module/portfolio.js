@@ -5,7 +5,7 @@ const portfolio = {
         projects: [
             {
                 name: 'Blogging Platform',
-                overview: 'This Blog Platform is a web application that allows users to create, read, update, and delete blog posts. It features user authentication, a rich text editor, and a clean responsive design. The platform is built using HTML, CSS, JavaScript, Bootstrap, PHP (Laravel), and MySQL.',
+                overview: 'The Blog Platform is a project I developed to create an easy-to-use blogging system where users can create, manage, and share posts. This platform includes features such as content management, user profiles, and a clean, modern UI. I built it using Laravel for the backend and MySQL for data management, allowing me to demonstrate my skills in Backend development, database management, and system design. It is designed to be scalable and user-friendly.',
                 image: [
                     {
                         src: '/assets/images/portfolio/blog-admin.png',
@@ -38,7 +38,7 @@ const portfolio = {
             },
             {
                 name: 'Shoe Showcasing Website',
-                overview: 'Shoe Showcasing Website is a dynamic and responsive web application built with Laravel, Livewire, and Bootstrap that allows users to browse and manage a variety of shoe products. It features functionalities for both customers and admins, including user authentication, product browsing, shopping cart management, order processing, and admin dashboard.',
+                overview: 'This is a website I built to showcase various shoe collections. The platform allows users to browse through different categories, filter products, and view detailed information about each shoe. Built with Laravel and integrated with a MySQL database, this project demonstrates my skills in backend development, clean code, and system design. It is fully responsive and includes features such as product search, user authentication, and a seamless shopping experience..',
                 image: [
                     {
                         src: '/assets/images/portfolio/shoe-admin.png',
