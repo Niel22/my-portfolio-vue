@@ -6,7 +6,7 @@
                     <span class="n5-color fs-five">HI, I'M A</span>
                     <h2 class="typing-text display-one p1-color mt-2 mb-3"></h2>
                     <p class="fs-seven n5-color">
-                        I'm a software engineer specializing in building scalable and efficient backend systems.
+                        {{ about }}
                         Explore my
                         <router-link :to="{name: 'portfolio'}" class="p1-color">project portfolio</router-link>,
                         and <router-link :to="{name: 'resume'}" class="p1-color">online resume</router-link>.
@@ -54,6 +54,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 export default {
     name: "BannerSection",
     data() {
@@ -64,8 +65,14 @@ export default {
             typeIndex: 0,
         };
     },
+    computed: {
+        ...mapState('aboutMe', ['about'])
+    },
     mounted() {
         this.playAnim();
+    },
+    beforeUnmount() {
+        clearInterval(this.typingInterval);
     },
     methods: {
         playAnim() {
