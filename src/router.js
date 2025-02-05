@@ -3,6 +3,7 @@ import AboutPage from './pages/AboutPage.vue';
 import ResumePage from './pages/ResumePage.vue';
 import PortfolioPage from './pages/PortfolioPage.vue';
 import ContactPage from './pages/ContactPage.vue';
+import ProjectDetails from './pages/ProjectDetails.vue';
 
 const routes = [
     {
@@ -36,13 +37,22 @@ const routes = [
         meta: {
             title: "Contact"
         }
+    },
+    {
+        name: 'project.details',
+        path: '/project/:slug',
+        component: ProjectDetails
     }
 ];
 
 const router = createRouter({
     history: createWebHistory(),
     routes,
-    linkActiveClass: "bg1-color"
+    linkActiveClass: "bg1-color",
+    scrollBehavior() {
+        
+        return { top: 0 }
+      },
 });
 
 router.beforeEach((to, from, next) => {
