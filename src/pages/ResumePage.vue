@@ -6,7 +6,7 @@
                     Online Resume
                 </h3>
 
-                <a href="assets/images/resume.pdf"
+                <a href="assets/images/resume_James.pdf"
                     class="w-max primary-btn bg1-color fw-medium n1-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto"
                     download>
                     <i class="ph ph-file-pdf"></i>Download PDF Version
@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <div class="container mt-8 mt-md-15">
+        <div class="container mt-8 mt-md-15" id="resume">
             <div data-aos="fade-up" class="bgn2-color p-4 p-sm-8 p-md-15 rounded-5 brn4">
                 <div
                     class="d-flex flex-wrap justify-content-between align-items-center gap-3 br-bottom-n3 pb-3 pb-md-6">
@@ -333,6 +333,11 @@
 
 <script>
 export default {
-    name: "ResumePage"
+    name: "ResumePage",
+    methods: {
+        downloadResume(){
+
+        }
+    }
 }
 </script>
