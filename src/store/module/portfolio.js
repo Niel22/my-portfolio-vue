@@ -85,6 +85,78 @@ const portfolio = {
                     'Users can submit reviews and ratings based on their experiences with mechanics, helping others make informed decisions.'
                 ]
             },
+            {
+                "name": "Product Expiry Alert Management System",
+                "overview": "A system to manage product expiry dates, helping users keep track of inventory and alerting them when items are about to expire.",
+                "image": [
+                    {
+                        "src": "/assets/images/portfolio/expiry.png",
+                        "alt": "Expiry Project Screenshot"
+                    },
+                    {
+                        "src": "/assets/images/portfolio/expiry-admin.png",
+                        "alt": "Expiry Project Screenshot"
+                    }
+                ],
+                "slug": "product-expiry-alert-management-system",
+                "tech": ["Laravel", "Livewire", "MySQL"],
+                "client": "Personal Project",
+                "live_link": "#",
+                "github_link": "https://github.com/Niel22/Product-Expiry-Alert-System",
+                "features": [
+                    "Users can register and log in to access platform features.",
+                    "Real-time alerts for product expiry based on set thresholds.",
+                    "An admin dashboard to manage inventory and expiry settings."
+                ]
+            },
+            {
+                "name": "Lecture Reminder System",
+                "overview": "A system designed to remind students and lecturers of upcoming lectures to ensure better time management.",
+                "image": [
+                    {
+                        "src": "/assets/images/portfolio/lecture-reminder.png",
+                        "alt": "Lecture Reminder Project Screenshot"
+                    },
+                    {
+                        "src": "/assets/images/portfolio/reminder.png",
+                        "alt": "Reminder Project Screenshot"
+                    }
+                ],
+                "slug": "lecture-reminder-system",
+                "tech": ["Laravel", "Livewire", "MySQL"],
+                "client": "Personal Project",
+                "live_link": "#",
+                "github_link": "https://github.com/Niel22/Lecture-Reminder-System",
+                "features": [
+                    "Users can set up reminders for lectures based on time and date.",
+                    "Notifications are sent via email or SMS to registered users.",
+                    "Admin interface to manage users and schedule."
+                ]
+            },
+            {
+                "name": "Online Campus Opinion Poll System",
+                "overview": "A platform for conducting opinion polls among students on campus, allowing for real-time feedback and engagement.",
+                "image": [
+                    {
+                        "src": "/assets/images/portfolio/poll-details.png",
+                        "alt": "Polling System Project Screenshot"
+                    },
+                    {
+                        "src": "/assets/images/portfolio/poll-admin.png",
+                        "alt": "Polling System Admin Screenshot"
+                    }
+                ],
+                "slug": "online-campus-opinion-poll-system",
+                "tech": ["Laravel", "Livewire", "MySQL"],
+                "client": "Personal Project",
+                "live_link": "#",
+                "github_link": "https://github.com/Niel22/opinion_poll_app",
+                "features": [
+                    "Users can create and participate in polls.",
+                    "Results are displayed in real-time with graphical insights.",
+                    "Admin features for poll moderation and analysis."
+                ]
+            }
         ]
     }),
     mutations: {
