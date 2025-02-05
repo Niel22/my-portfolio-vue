@@ -20,7 +20,7 @@
                 <div data-aos="fade-up" data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-6 col-xl-4 col-xxl-3" v-for="technology in technologies" :key="technology.name">
                     <div class="service-card px-4 px-lg-8 py-5 py-lg-10">
                         <img :src="technology.img"
-                            width="40" height="40" alt="{{ technology.name }}" class="service-icon" />
+                            width="40" height="40" :alt="technology.name" class="service-icon" />
                         <h4 class="fs-six n5-color fw-medium mt-3 mt-md-6 mb-2 mb-md-3">
                             {{ technology.name }}
                         </h4>
