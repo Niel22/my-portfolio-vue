@@ -3,7 +3,7 @@
     <BannerSection />
     <SectionSection />
     <ProjectSection />
-    <TestimonySection />
+    <!-- <TestimonySection /> -->
 </template>
 
 <script>
