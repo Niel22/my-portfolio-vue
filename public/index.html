@@ -4,18 +4,67 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-    <!-- #favicon -->
+    <title>James Daniel Boluwatife - Experienced Backend Developer</title>
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="<%= BASE_URL %>assets/images/logo.png" type="image/x-icon" />
-    <!-- ==== css dependencies start ==== -->
-    <link rel="stylesheet" href="<%= BASE_URL %>assets/css/style.css" />
-    <!-- AOS  -->
-    <link rel="stylesheet" href="<%= BASE_URL %>assets/unpkg.com/aos%403.0.0-beta.6/dist/aos.css" />
-    <!-- swiper  -->
-    <link rel="stylesheet" href="<%= BASE_URL %>assets/cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.css" />
-    <!-- ICON  -->
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="James Daniel Boluwatife is an experienced backend developer with over 2 years of expertise in PHP, Laravel, Node.js, Express, TypeScript, and Livewire. View projects and services." />
+    <meta name="keywords" content="Backend Developer, James Daniel Boluwatife, Zealarax Technology, PHP, Laravel, Node.js, Express.js, TypeScript, Livewire, Backend Development Portfolio, Web Development Expert, Experienced Developer" />
+    <meta name="author" content="James Daniel Boluwatife" />
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="James Daniel Boluwatife - Experienced Backend Developer" />
+    <meta property="og:description" content="Explore the portfolio of James Daniel Boluwatife, a backend developer skilled in PHP, Laravel, Node.js, Express.js, TypeScript, and Livewire." />
+    <meta property="og:image" content="<%= BASE_URL %>assets/images/resume-icon.png" />
+    <meta property="og:url" content="https://niel-dev.vercel.app" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="James Daniel Boluwatife - Experienced Backend Developer" />
+    <meta name="twitter:description" content="Learn more about James Daniel Boluwatife, a backend developer with expertise in PHP, Laravel, Node.js, Express.js, TypeScript, and Livewire." />
+    <meta name="twitter:image" content="<%= BASE_URL %>assets/images/resume-icon.png" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://niel-dev.vercel.app" />
+
+    <!-- Schema Markup for Rich Results -->
+    <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "James Daniel Boluwatife",
+          "url": "https://niel-dev.vercel.app",
+          "description": "James Daniel Boluwatife is a backend developer with over 2 years of experience in PHP, Laravel, Node.js, Express.js, TypeScript, and Livewire.",
+          "jobTitle": "Backend Developer",
+          "worksFor": {
+              "@type": "Organization",
+              "name": "Zealarax Technology"
+          },
+          "sameAs": [
+              "https://www.linkedin.com/in/novaniel",
+              "https://github.com/niel22"
+          ]
+      }
+      </script>
+
+      <!-- Robots Meta Tag -->
+      <meta name="robots" content="index, follow" />
+
+      <!-- CSS Dependencies -->
+      <link rel="stylesheet" href="<%= BASE_URL %>assets/css/style.css" />
+      <link rel="stylesheet" href="<%= BASE_URL %>assets/unpkg.com/aos%403.0.0-beta.6/dist/aos.css" />
+      <link rel="stylesheet" href="<%= BASE_URL %>assets/cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.css" />
+
+      <!-- ICON -->
+      <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+      <!-- Additional -->
+      <meta name="theme-color" content="#ffffff" />
   </head>
+
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
