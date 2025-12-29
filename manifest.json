@@ -1,0 +1,22 @@
+{
+  "name": "James Daniel Portfolio",
+  "short_name": "JD Portfolio",
+  "description": "Backend & Full-Stack Developer Portfolio showcasing projects, skills, and client solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a202c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/vercel.svg",
+      "sizes": "192x192",
+      "type": "vercel.svg"
+    },
+    {
+      "src": "/vercel.svg",
+      "sizes": "512x512",
+      "type": "vercel.svg"
+    }
+  ]
+}
