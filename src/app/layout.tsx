@@ -97,7 +97,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "t9__o3lkFmWjRoMK30kARlI9jUwQiQSBXPPfDlUc8ws",
+    google: "XYgcnoK0S9qL6EcMF61pmtWX4HGYpCPJ",
   },
   manifest: "/manifest.json",
   appleWebApp: {
