@@ -1,9 +1,8 @@
-import React from "react";
-import { projects } from "../../../../_data/data";
 import { notFound } from "next/navigation";
+import { projects } from "../../../../_data/data";
 
-import { Metadata } from "next";
 import ProjectClient from "@/components/ProjectClient";
+import { Metadata } from "next";
 
 export async function generateStaticParams() {
   return projects.map((project) => ({
@@ -14,9 +13,12 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const project = projects.find((p) => p.slug === params.slug);
+
+  const { slug } = await params;
+
+  const project = projects.find((p) => p.slug === slug);
 
   if (!project) {
     return {
