@@ -2,10 +2,11 @@ export const projects = [
   {
     name: "POS Inventory System",
     slug: "pos-inventory-system",
+    role: "Backend Developer",
     description: [
       "A full SaaS Point of Sale and Inventory Management system built to help small and medium businesses run daily operations without confusion or manual errors.",
       "The system allows businesses to create accounts and manage multiple stores from one dashboard. Each store can track sales, purchases, inventory levels, and transaction history in real time.",
-      "It is designed for business owners who want visibility and control over their operations without relying on spreadsheets or paper records. The platform improves accuracy, saves time, and supports data-driven decisions as the business grows."
+      "It is designed for business owners who want visibility and control over their operations without relying on spreadsheets or paper records."
     ],
     technologyUsed: [
       "React.js",
@@ -24,10 +25,11 @@ export const projects = [
   {
     name: "Nirvana Initiative NGO Website",
     slug: "nirvana-initiative",
+    role: "Backend Developer",
     description: [
       "A professional NGO website built to establish trust, communicate impact clearly, and encourage donations.",
-      "The platform presents the organization’s mission, programs, and achievements in a clear and accessible way, helping visitors understand the cause and how they can contribute.",
-      "Secure online donations are integrated to make supporting the organization simple and reliable. The system is built to scale, allowing new programs, content, and integrations to be added as the NGO grows."
+      "The platform presents the organization’s mission, programs, and achievements in a clear and accessible way.",
+      "Secure online donations are integrated to make supporting the organization simple and reliable."
     ],
     technologyUsed: [
       "Next.js",
@@ -45,10 +47,11 @@ export const projects = [
   {
     name: "Pharmacy Management System",
     slug: "drug-management-system",
+    role: "Backend Developer",
     description: [
       "A complete pharmacy management system designed to handle inventory, sales, supplier coordination, and customer purchases in one platform.",
-      "The system includes role-based dashboards for admins, suppliers, and customers. Admins manage stock and operations, suppliers receive and fulfill drug orders, and customers can browse available drugs and make purchases.",
-      "This platform reduces manual tracking, prevents stock shortages, and improves overall efficiency in pharmacy operations while ensuring accountability across all roles."
+      "The system includes role-based dashboards for admins, suppliers, and customers.",
+      "It reduces manual tracking and improves accountability across all roles."
     ],
     technologyUsed: [
       "Node.js",
@@ -68,10 +71,11 @@ export const projects = [
   {
     name: "TaskWin",
     slug: "task-win",
+    role: "Fullstack Developer",
     description: [
       "A task-to-earn platform that allows users to complete simple online tasks and earn money.",
-      "Promoters can register, generate unique referral links, and earn commissions based on verified clicks and user engagement.",
-      "The system focuses on transparency and accuracy, with proper tracking for referrals, earnings, and wallet balances, ensuring trust between the platform and its users."
+      "Promoters generate referral links and earn commissions from verified engagement.",
+      "The system focuses on accurate tracking of earnings and wallet balances."
     ],
     technologyUsed: [
       "Laravel",
@@ -90,10 +94,11 @@ export const projects = [
   {
     name: "Nigeria Central – Europe Chamber of Commerce",
     slug: "ncecc-trade",
+    role: "Fullstack Developer",
     description: [
-      "A corporate trade platform built to connect Nigerian businesses and institutions with partners across Central Europe.",
-      "The platform serves as a digital hub for trade facilitation, policy collaboration, and cross-border partnerships between Nigeria and countries such as Germany, Austria, and Poland.",
-      "It provides a structured and professional online presence that supports credibility, visibility, and long-term international collaboration."
+      "A corporate trade platform connecting Nigerian businesses with partners across Central Europe.",
+      "The platform supports trade facilitation and cross-border collaboration.",
+      "It provides a strong digital presence for international partnerships."
     ],
     technologyUsed: [
       "React.js",
@@ -111,10 +116,11 @@ export const projects = [
   {
     name: "Regional Trade Institute",
     slug: "regional-trade-institute",
+    role: "Backend Developer",
     description: [
-      "An educational and trade-focused platform designed to connect Africa and Central Europe through academic programs and executive learning.",
-      "Users can explore available programs, add courses to a cart, and complete payments securely online.",
-      "The platform positions RTI as a trusted institution for cross-continental education, innovation, and trade collaboration."
+      "An education and trade platform connecting Africa and Central Europe.",
+      "Users can browse programs, add courses to cart, and pay online.",
+      "The system supports growth and future integrations."
     ],
     technologyUsed: [
       "React.js",
@@ -132,10 +138,11 @@ export const projects = [
   {
     name: "CMS Dashboard",
     slug: "cms-dashboard",
+    role: "Backend Developer",
     description: [
-      "A centralized Content Management System built to manage multiple websites from a single dashboard.",
-      "Administrators can update pages, sections, and media content without needing a developer for every change.",
-      "The CMS is used to power and maintain platforms like Nirvana Initiative, NCECC, and RTI, reducing maintenance overhead and improving content consistency."
+      "A centralized CMS for managing multiple websites from one dashboard.",
+      "Admins can update content without developer support.",
+      "Used across multiple production platforms."
     ],
     technologyUsed: [
       "React.js",
@@ -153,10 +160,11 @@ export const projects = [
   {
     name: "Shoes E-Commerce Platform",
     slug: "shoes-ecommerce",
+    role: "Fullstack Developer",
     description: [
-      "A full e-commerce platform built for selling shoes online with a smooth shopping experience.",
-      "Customers can browse collections, view featured products, add items to cart, create accounts, and complete checkout.",
-      "The platform focuses on usability, responsive design, and essential e-commerce features needed to run a modern online store."
+      "A complete e-commerce platform for selling shoes online.",
+      "Supports product browsing, cart, checkout, and user accounts.",
+      "Built with core e-commerce business logic."
     ],
     technologyUsed: [
       "Laravel",
@@ -174,10 +182,11 @@ export const projects = [
   {
     name: "Blog Platform with RBAC",
     slug: "blog-platform",
+    role: "Fullstack Developer",
     description: [
-      "A blog and news publishing platform built with structured content control and role-based access.",
-      "Admins manage roles and permissions, authors create content, and editors review posts before publication.",
-      "The system ensures content quality, accountability, and organized publishing workflows."
+      "A blog platform with structured publishing workflows.",
+      "Admins manage roles, authors create content, editors review posts.",
+      "Ensures content quality and accountability."
     ],
     technologyUsed: [
       "Laravel",
@@ -195,14 +204,15 @@ export const projects = [
   {
     name: "Private Investor Management System",
     slug: "private-project",
+    role: "Fullstack Developer",
     description: [
-      "A secure investor and project management system developed for a private client under confidentiality.",
-      "The platform manages investor declarations, document uploads, project assignments, dashboards, and notifications.",
-      "It is designed to automate workflows, reduce manual coordination, and maintain strict data privacy."
+      "A secure investor and project management system for a private client.",
+      "Handles documents, dashboards, workflows, and notifications.",
+      "Built with strong focus on privacy and automation."
     ],
     technologyUsed: [
       "Laravel",
-      "React.js", 
+      "React.js",
       "MySQL",
       "Tailwind CSS",
       "Workflow Automation"
@@ -216,10 +226,11 @@ export const projects = [
   {
     name: "Private Group Chat System",
     slug: "private-group-chat",
+    role: "Fullstack Developer",
     description: [
-      "A secure real-time group chat system built for internal communication within a private organization.",
-      "The platform supports group locking, message pinning, scheduling, private replies, and task assignment.",
-      "It improves collaboration, accountability, and communication efficiency while maintaining access control and privacy."
+      "A real-time internal group chat system.",
+      "Supports locking, pinning, scheduling, and task assignments.",
+      "Built for privacy and controlled access."
     ],
     technologyUsed: [
       "Laravel",
@@ -234,6 +245,7 @@ export const projects = [
     bgColor: "bg-purple-600"
   }
 ];
+
 
 
 export const experiences = [

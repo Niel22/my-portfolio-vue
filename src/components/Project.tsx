@@ -49,7 +49,7 @@ const Project = () => {
 
                   <h2 className="text-lg font-bold tracking-[0.5px]">{data.name}</h2>
                   <p className="text-xs text-wrap prose font-light text-gray-700 line-clamp-2 flex-grow">
-                    Web App Development
+                    {data.role}
                   </p>
                 </div>
               </Link>

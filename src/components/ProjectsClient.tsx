@@ -62,7 +62,7 @@ const ProjectsClient = () => {
                   </h2>
 
                   <p className="text-xs prose font-light text-gray-700 line-clamp-2">
-                    Web App Development
+                    {data.role}
                   </p>
                 </div>
               </Link>
