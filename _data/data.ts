@@ -69,29 +69,6 @@ export const projects = [
   },
 
   {
-    name: "TaskWin",
-    slug: "task-win",
-    role: "Fullstack Developer",
-    description: [
-      "A task-to-earn platform that allows users to complete simple online tasks and earn money.",
-      "Promoters generate referral links and earn commissions from verified engagement.",
-      "The system focuses on accurate tracking of earnings and wallet balances."
-    ],
-    technologyUsed: [
-      "Laravel",
-      "React.js",
-      "REST APIs",
-      "Authentication & Authorization",
-      "Referral Tracking System",
-      "Wallet & Earnings Logic"
-    ],
-    link: "https://task-win.com/",
-    github: "",
-    img: "taskwin.png",
-    bgColor: "bg-emerald-400"
-  },
-
-  {
     name: "Nigeria Central – Europe Chamber of Commerce",
     slug: "ncecc-trade",
     role: "Fullstack Developer",
@@ -112,6 +89,7 @@ export const projects = [
     img: "ncecc.png",
     bgColor: "bg-red-400"
   },
+
 
   {
     name: "Regional Trade Institute",
@@ -200,50 +178,6 @@ export const projects = [
     img: "blog.png",
     bgColor: "bg-green-400"
   },
-
-  {
-    name: "Private Investor Management System",
-    slug: "private-project",
-    role: "Fullstack Developer",
-    description: [
-      "A secure investor and project management system for a private client.",
-      "Handles documents, dashboards, workflows, and notifications.",
-      "Built with strong focus on privacy and automation."
-    ],
-    technologyUsed: [
-      "Laravel",
-      "React.js",
-      "MySQL",
-      "Tailwind CSS",
-      "Workflow Automation"
-    ],
-    link: "",
-    github: "",
-    img: "nda.webp",
-    bgColor: "bg-gray-800"
-  },
-
-  {
-    name: "Private Group Chat System",
-    slug: "private-group-chat",
-    role: "Fullstack Developer",
-    description: [
-      "A real-time internal group chat system.",
-      "Supports locking, pinning, scheduling, and task assignments.",
-      "Built for privacy and controlled access."
-    ],
-    technologyUsed: [
-      "Laravel",
-      "Laravel Reverb",
-      "React.js",
-      "MySQL",
-      "WebSockets"
-    ],
-    link: "",
-    github: "",
-    img: "nda.webp",
-    bgColor: "bg-purple-600"
-  }
 ];
 
 
