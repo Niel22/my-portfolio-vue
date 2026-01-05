@@ -90,7 +90,6 @@ export const projects = [
     bgColor: "bg-red-400"
   },
 
-
   {
     name: "Regional Trade Institute",
     slug: "regional-trade-institute",
@@ -133,6 +132,31 @@ export const projects = [
     github: "",
     img: "cms.png",
     bgColor: "bg-pink-400"
+  },
+
+  {
+    name: "Assessment & Recruitment Portal",
+    slug: "assessment-recruitment-portal",
+    role: "Fullstack Developer",
+    description: [
+      "An internal assessment system used by organizations to evaluate potential employees during recruitment.",
+      "Supports multiple question types including objective, MCQ, true or false, and theory questions where candidates submit written answers.",
+      "Tests can be created per job role so all applicants for that role take the same assessment.",
+      "Admins can also schedule and assign timed tests to specific individuals, with access restricted to the assigned time window."
+    ],
+    technologyUsed: [
+      "Blade",
+      "Tailwindcss",
+      "Vanilla Javascript",
+      "Laravel",
+      "Authentication & Authorization",
+      "Role-Based Access Control",
+      "Timed Test Scheduling Logic"
+    ],
+    link: "",
+    github: "https://github.com/Niel22/Internal-Assessment-Portal.git",
+    img: "assesment.png",
+    bgColor: "bg-emerald-400"
   },
 
   {
