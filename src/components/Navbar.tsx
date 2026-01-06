@@ -109,7 +109,7 @@ const Navbar = () => {
           <Tooltip>
             <TooltipTrigger asChild>
               <Link
-                href="/JAMES_DANIEL_BOLUWATIFE_CV.docx"
+                href="/james_daniel_resume.pdf"
                 target="_blank"
                 download
                 className="p-[15px] hover:px-[20px] hover:mr-1 text-zinc-600 hover:text-zinc-900 transition-all duration-300 hover:bg-[#ededed]/20 rounded-[15px]"
