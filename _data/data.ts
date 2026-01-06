@@ -170,9 +170,9 @@ export const projects = [
     ],
     technologyUsed: [
       "Laravel",
-      "React.js",
+      "Livewire",
       "MySQL",
-      "Tailwind CSS",
+      "Bootstrap CSS",
       "E-commerce Business Logic"
     ],
     link: "https://womarkbuy.com/",
@@ -192,9 +192,9 @@ export const projects = [
     ],
     technologyUsed: [
       "Laravel",
-      "React.js",
+      "Livewire",
       "MySQL",
-      "Tailwind CSS",
+      "Bootstrap CSS",
       "Role-Based Access Control"
     ],
     link: "https://blog.womarkbuy.com/",
