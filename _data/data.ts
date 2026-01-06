@@ -23,25 +23,26 @@ export const projects = [
   },
 
   {
-    name: "Nirvana Initiative NGO Website",
-    slug: "nirvana-initiative",
+    name: "Hospital Management System",
+    slug: "hospital-management-system",
     role: "Backend Developer",
     description: [
-      "A professional NGO website built to establish trust, communicate impact clearly, and encourage donations.",
-      "The platform presents the organization’s mission, programs, and achievements in a clear and accessible way.",
-      "Secure online donations are integrated to make supporting the organization simple and reliable."
+      "A comprehensive Hospital Management System developed for Federal Polytechnic Ilaro to streamline medical and administrative operations.",
+      "The platform manages patient records, appointments, medical histories, staff schedules, and billing seamlessly.",
+      "Designed to improve operational efficiency, reduce manual errors, and provide real-time insights for healthcare administrators."
     ],
     technologyUsed: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Express.js",
-      "Paystack Payment Gateway"
+      "Laravel",
+      "Vue.js",
+      "MySQL",
+      "REST APIs",
+      "Authentication & Role-Based Access Control",
+      "Patient & Staff Management Logic"
     ],
-    link: "https://www.nirvanainitiative.org/",
+    link: "https://fpi-clinic-ui.vercel.app/",
     github: "",
-    img: "nirvana.png",
-    bgColor: "bg-orange-400"
+    img: "clinic.png",
+    bgColor: "bg-red-500"
   },
 
   {
@@ -66,6 +67,28 @@ export const projects = [
     github: "",
     img: "pharamacy.png",
     bgColor: "bg-purple-400"
+  },
+
+  {
+    name: "Nirvana Initiative NGO Website",
+    slug: "nirvana-initiative",
+    role: "Backend Developer",
+    description: [
+      "A professional NGO website built to establish trust, communicate impact clearly, and encourage donations.",
+      "The platform presents the organization’s mission, programs, and achievements in a clear and accessible way.",
+      "Secure online donations are integrated to make supporting the organization simple and reliable."
+    ],
+    technologyUsed: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Express.js",
+      "Paystack Payment Gateway"
+    ],
+    link: "https://www.nirvanainitiative.org/",
+    github: "",
+    img: "nirvana.png",
+    bgColor: "bg-orange-400"
   },
 
   {
